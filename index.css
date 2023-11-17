@@ -1,39 +1,32 @@
-/*body {background-color: black;}*/ 
-
-/*nav {
-    background-color: black;
-    text-align: center;
-    color: white;
-    display: flex;
-    justify-content: ;
-    align-items: center;
-    font-family: 'Amiri', sans-serif;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    letter-spacing: 1px;
-    text-transform: none;
-  }*/
+body {background-color: black;}
 
   .topnav {
     background-color: black;
     text-align: center;
-    color: white;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    padding: 14px 16px;
     font-family: 'Amiri', sans-serif;
     font-size: 24px;
   }
 
-  .a{
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+  }
+  a{
     text-decoration: none;
     color: white;
+    font-family: 'Amiri', sans-serif;
   }
 
-.img {
+.front {
 max-width: 100%;
 height: auto;
+border: none;
+border-radius: 0;
+box-shadow: none;
 }
 
 .socialmedia {
